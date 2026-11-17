@@ -1,6 +1,8 @@
 # ExcelAid
 A desktop toolkit for Excel users to convert dates, clean and merge data, reconcile files and manage checks, without changing the original files.
 
+<br><img width="1512" height="794" alt="excelyar" src="https://github.com/user-attachments/assets/7a471f29-95f7-4b67-a5da-e57b21e5995c" />
+
 ## EXCEL TOOLS
 - Date Converter - Shamsi to Gregorian and back, per column
 - Date Difference - days, months and years between two dates
