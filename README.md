@@ -1,28 +1,73 @@
-# ExcelAid
-A desktop toolkit for Excel users to convert dates, clean and merge data, reconcile files and manage checks, without changing the original files.
+<div dir="rtl" align="right">
 
-<br><img width="1512" height="794" alt="excelyar" src="https://github.com/user-attachments/assets/7a471f29-95f7-4b67-a5da-e57b21e5995c" />
+# اکسل‌یار
 
-## EXCEL TOOLS
-- Date Converter - Shamsi to Gregorian and back, per column
-- Date Difference - days, months and years between two dates
-- Date Shift - add or subtract days, months or years
-- Check Average - weighted-average due date of cheques
-- Data Prep - clean text, merge sheets, split by column
-- Reconciliation - compare two sheets with tolerances
-- Lookup - bring columns from one file to another
-  
-## TOOLS & CALENDAR
-- Quick Tools - age, amount in words, Rial/Toman
--	Calendar - Shamsi holidays and occasions
--	Tasks - built-in to-do list
+اپلیکیشن دسکتاپ جهت **تبدیل، جابجایی و محاسبه اختلاف** تکی و گروهی **تاریخ شمسی و میلادی**، **آماده‌سازی داده** (پاکسازی، عدد به حروف، ترکیب و تفکیک)، **مغایرت‌گیری خودکار**، **رأس‌گیری چک**، **خلاصه‌سازی و گزارش‌گیری** به صورت **آفلاین** با انتخاب فایل‌های اکسل. به‌همراه **تقویم شمسی و میلادی**، **مدیریت وظایف** و ابزارهای محاسباتی مانند **محاسبه وام و سود سپرده**.
 
-## GENERAL
--	Shamsi and Gregorian Dates Support
--	Persian and English UI with Dark Mode
--	Keyboard Shortcuts and System Tray
--	5-Day Full Trial
-  
-© 2026 Amirhossein Tonekaboni
-atonekaboni.ir
+<p align="center">
+  <a href="https://atonekaboni.ir/fa/excelyar/"><img src="https://atonekaboni.ir/assets/excelyar/og-excelaid-fa.png" alt="نمای برنامه اکسل‌یار" width="760"></a>
+</p>
 
+<p align="center">
+<a href="https://github.com/atonekaboni/ExcelAid/releases/latest"><img src="https://img.shields.io/badge/Download-4caf50?logo=github&logoColor=white" alt="Download"></a>
+<a href="https://atonekaboni.ir/fa/excelyar/"><img src="https://img.shields.io/badge/Website-e53935?logo=google-chrome&logoColor=white" alt="Website"></a>
+<a href="https://atonekaboni.ir/excel-aid/"><img src="https://img.shields.io/badge/English-0077b5?logo=googletranslate&logoColor=white" alt="English"></a>
+</p>
+
+## امکانات
+
+- **تبدیل تاریخ:** تبدیل گروهی تاریخ شمسی به میلادی و برعکس.
+- **اختلاف تاریخ:** فاصله روز، ماه یا سال بین دو تاریخ برای هر ردیف.
+- **جابجایی تاریخ:** جابجا کردن تاریخ‌ها به تعداد دلخواه روز، ماه یا سال.
+- **آماده‌سازی:** پاکسازی، تبدیل عدد به حروف، ترکیب شیت‌ها و فایل‌ها و تفکیک بر اساس ستون.
+- **رأس‌گیری چک:** محاسبه خودکار رأس و سررسید چک‌ها بر اساس نرخ بهره سالانه.
+- **مغایرت‌گیری:** تطبیق دو فایل اکسل و مشخص کردن ردیف‌های ناهماهنگ، یا جستجو مثل VLOOKUP.
+- **خلاصه‌سازی:** گزارش آماده از تعداد، جمع و میانگین با گروه‌بندی روز، ماه، فصل، سال مالی یا ستون دلخواه.
+- **ابزارها:** ماشین‌حساب درصد، وام و سود سپرده، ریال و تومان، اعتبارسنجی کد ملی، شماره کارت و شبا.
+- **تقویم و وظایف:** تقویم آفلاین شمسی و میلادی با تعطیلات و مناسبت‌ها، و مدیریت کارهای روزانه.
+
+## مغایرت‌گیری
+
+- ستون‌های هم‌معنا با نام متفاوت را جفت می‌کنید، مثلاً «برداشت = بدهکار».
+- کلید چندستونه، علامت‌گذاری کلید تکراری و تلورانس مبلغ و تاریخ.
+- خروجی، ستون‌های هر دو فایل را کنار هم با ردیف‌های مغایر و یک شیت خلاصه نشان می‌دهد.
+
+## رأس‌گیری چک
+
+رأس‌گیری، میانگین وزنی تاریخ سررسید چک‌ها بر اساس مبلغ است. تاریخ مرجع را انتخاب می‌کنید (امروز، اولین تاریخ فایل یا تاریخ دلخواه) و تاریخ رأس به شمسی و میلادی محاسبه می‌شود. با وارد کردن نرخ بهره سالانه، بهره یا تخفیف هم حساب می‌شود. ردیف‌های ناسالم، مثل مبلغ منفی یا تاریخ ناخوانا، از میانگین بیرون می‌مانند و در گزارش ثبت می‌شوند.
+
+## میانبرهای سراسری
+
+در هر برنامه‌ای متن را انتخاب کنید و کلید میانبر را بزنید. اکسل‌یار باید در حال اجرا باشد و میانبرها در تنظیمات قابل تغییرند.
+
+**تبدیل تاریخ و عدد به حروف** با کلید `Ctrl+Alt+E`. معادل شمسی یا میلادی همراه با نام روز در یک پاپ‌آپ نشان داده می‌شود و مبلغ به حروف نوشته می‌شود.
+
+**اصلاح متن با کیبورد اشتباه** با کلید `Ctrl+Alt+L`. مثلاً `sghl` به «سلام» تبدیل می‌شود و برعکس.
+
+## نحوه کار
+
+1. فایل یا پوشه را روی برنامه رها کنید (Drag & Drop) یا با دکمه انتخاب کنید.
+2. عملیات مورد نظر را انتخاب کنید.
+3. نتیجه در یک فایل اکسل جداگانه کنار فایل اصلی ذخیره می‌شود و فایل اصلی دست‌نخورده می‌ماند.
+
+پیش‌نیاز: ویندوز ۱۰ یا ۱۱. نیازی به نصب اکسل نیست. فرمت‌های ورودی: `xlsx`، `xls`، `csv`، `xml`.
+
+## لایسنس
+
+اکسل‌یار ۵ روز آزمایشی رایگان با همه‌ی امکانات دارد. بعد از آن، تبدیل تاریخ، تقویم، مدیریت وظایف و ابزارها همیشه رایگان می‌مانند و برای بقیه‌ی امکانات لایسنس لازم است. اطلاعات بیشتر در [صفحه اکسل‌یار](https://atonekaboni.ir/fa/excelyar/).
+
+## توسعه دهنده
+
+**امیرحسین تنکابنی**  
+مشاور راهکار سازمانی SAP Business One  
+تحلیلگر BI و توسعه دهنده محصول
+
+<p dir="rtl" align="right">
+<a href="https://www.linkedin.com/in/tonekaboni/"><img src="https://img.shields.io/badge/LinkedIn-0077b5?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://github.com/atonekaboni"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://atonekaboni.ir"><img src="https://img.shields.io/badge/Website-e53935?logo=google-chrome&logoColor=white" alt="Website"></a>
+</p>
+
+</div>
+
+<p align="center">Copyright (C) 2026 Amirhossein Tonekaboni</p>
