@@ -65,7 +65,7 @@
 <p dir="rtl" align="right">
 <a href="https://www.linkedin.com/in/tonekaboni/"><img src="https://img.shields.io/badge/LinkedIn-0077b5?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="https://github.com/atonekaboni"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"></a>
-<a href="https://atonekaboni.ir"><img src="https://img.shields.io/badge/Website-e53935?logo=google-chrome&logoColor=white" alt="Website"></a>
+<a href="https://atonekaboni.ir/fa/"><img src="https://img.shields.io/badge/Website-e53935?logo=google-chrome&logoColor=white" alt="Website"></a>
 </p>
 
 </div>
